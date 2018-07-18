@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:watch": "webpack --watch",
-    "build:production": "webpack -p",
+    "build:production": "webpack --mode=development",
     "build": "webpack"
   },
   "repository": {
@@ -20,10 +20,14 @@
   },
   "homepage": "https://github.com/lamarlofton/npm-exercises#readme",
   "dependencies": {
+    "async": "^2.6.1",
+    "async-es": "^2.6.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "webpack": "^4.16.1"
   },
   "devDependencies": {
